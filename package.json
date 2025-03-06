@@ -1,0 +1,24 @@
+{
+  "name": "crypto-news-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@huggingface/inference": "^3.5.1",
+    "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "wpapi": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11"
+  }
+}
