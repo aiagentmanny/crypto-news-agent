@@ -9,16 +9,26 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "description": "",
   "dependencies": {
     "@huggingface/inference": "^3.5.1",
-    "axios": "^1.8.1",
+    "axios": "^1.8.2",
     "dotenv": "^16.4.7",
+    "google-translate-api": "^2.3.0",
     "node-cron": "^3.0.3",
     "ts-node": "^10.9.2",
+    "twitter-api-v2": "^1.20.2",
     "wpapi": "^1.2.2"
   },
   "devDependencies": {
     "@types/node-cron": "^3.0.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiagentmanny/crypto-news-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aiagentmanny/crypto-news-agent/issues"
+  },
+  "homepage": "https://github.com/aiagentmanny/crypto-news-agent#readme",
+  "description": ""
 }
